@@ -7,8 +7,8 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const authRoutes = require("./routes/authRoutes");
-const conversationRoutes = require("./routes/conversationRoute");
-const messageRoutes = require("./routes/messageRoute");
+const conversationRoutes = require("./routes/conversationRoutes");
+const messageRoutes = require("./routes/messageRoutes");
 const connectDB = require("./config/db");
 
 const app = express();
